@@ -12,4 +12,4 @@ Explorador de archivos para dispositivos móviles Android
 
 ·Mover archivos y directorios.
 
-Todas estas acciones se contemplan bajo los "Directorios Públicos", en los cuales puedes actuar gracias a los permisos de "WRITE_EXTERNAL_STORAGE" y "READ_EXTERNAL_STORAGE".
+Todas estas acciones se contemplan bajo los "Directorios Públicos", en los cuales la aplicación actua gracias a los permisos de "WRITE_EXTERNAL_STORAGE" y "READ_EXTERNAL_STORAGE".
