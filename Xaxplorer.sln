@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xaxplorer", "Xaxplorer\Xaxplorer\Xaxplorer.csproj", "{0BC6381F-04D6-44B0-8A90-E17E41F6E0FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xaxplorer.Android", "Xaxplorer\Xaxplorer.Android\Xaxplorer.Android.csproj", "{B35BE0DB-F824-478A-AA4C-1E0F8F07FF2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC6381F-04D6-44B0-8A90-E17E41F6E0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC6381F-04D6-44B0-8A90-E17E41F6E0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC6381F-04D6-44B0-8A90-E17E41F6E0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC6381F-04D6-44B0-8A90-E17E41F6E0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35BE0DB-F824-478A-AA4C-1E0F8F07FF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35BE0DB-F824-478A-AA4C-1E0F8F07FF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35BE0DB-F824-478A-AA4C-1E0F8F07FF2A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B35BE0DB-F824-478A-AA4C-1E0F8F07FF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35BE0DB-F824-478A-AA4C-1E0F8F07FF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35BE0DB-F824-478A-AA4C-1E0F8F07FF2A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C6005DE-BDAC-46E9-AAC1-B34B95ED9874}
+	EndGlobalSection
+EndGlobal

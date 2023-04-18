@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:Xaxplorer.ViewModels"
+             x:Class="Xaxplorer.Views.MainPage"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+    <NavigationPage.TitleView>
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            
+            <!--back to parent directory-->
+            <ImageButton Margin="0,0,0,0"
+                 Grid.Column="0"
+                 HeightRequest="45"
+                 HorizontalOptions="Center"
+                 Source="left.png" 
+                 VerticalOptions="Center"
+                 WidthRequest="45"
+                 Command="{Binding GoBackCommand}"/>
+
+            <!--Title Label-->
+            <Label Grid.Column="1" Text="{Binding CurrentDirectory}" TextColor="White"  VerticalTextAlignment="Center" />
+
+        </Grid>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary" Text="Save" Priority="0" Command="{Binding SaveItemCommand}"/>
+        <ToolbarItem Order="Primary" Text="Cancel" Priority="1" Command="{Binding CancelSaveCommand}"/>
+        <ToolbarItem Order="Secondary" Text="Add Folder" Priority="0" Command="{Binding CreateDirectoryCommand}"/>
+        <ToolbarItem  Order="Secondary" Text="Add File" Priority="1"  Command="{Binding CreateFileCommand}"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <RefreshView   IsRefreshing="{Binding IsRefreshing}"
+                       Command="{Binding RefreshCommand}">
+            <CollectionView x:Name="FileSystem"
+                            ItemsSource="{Binding FileSystemItemsList}"
+                            ItemsLayout="VerticalGrid, 2"
+                            SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10"
+                              RowDefinitions="Auto, *"
+                              ColumnDefinitions="Auto, *"
+                              xct:TouchEffect.LongPressCommand="{Binding Source={RelativeSource AncestorType={x:Type local:MainPageViewModel}}, Path=ItemHoldCommand}"
+                              xct:TouchEffect.LongPressCommandParameter="{Binding Source={RelativeSource Self}, Path=BindingContext}">
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPageViewModel}}, Path=ItemTappedCommand}" 
+                                                      CommandParameter="{Binding Source={RelativeSource Self}, Path=BindingContext}">
+                                </TapGestureRecognizer>
+                            </Grid.GestureRecognizers>
+                            <Image   Grid.Row="0"
+                                     Grid.ColumnSpan="1"
+                                     Grid.Column="1"
+                                     Source="{Binding iconPath}"
+                                     Aspect="AspectFill"
+                                     WidthRequest="100"
+                                     HeightRequest="100"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center"
+                                     />
+
+                            <Label   Grid.Row="1"
+                                     Grid.ColumnSpan="2"
+                                     Text="{Binding name}"
+                                     FontAttributes="Bold"
+                                     HorizontalTextAlignment="Center"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center"
+                                     Margin="1">
+                            </Label>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+    </StackLayout>
+</ContentPage>
