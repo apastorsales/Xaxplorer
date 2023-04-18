@@ -19,14 +19,13 @@ namespace Xaxplorer.Droid
         public void StartActivity(string path)
         {
             
-                Android.Net.Uri uri = Android.Net.Uri.Parse(path+"/"+Android.App.Application.Context.PackageName);
+                Android.Net.Uri uri = Android.Net.Uri.Parse(path);
                 
                 var context = Android.App.Application.Context;
                 var activity = new Intent();
                 activity.SetAction(Intent.ActionGetContent);
                 activity.SetType("*/*");
-                activity.PutExtra("android.provider.extra.INITIAL_URI", uri);
-                activity.PutExtra("android.content.extra.SHOW_ADVANCED", true);
+                activity.PutExtra(Android.Provider.DocumentsContract.ExtraInitialUri, uri);
                 activity.SetFlags(ActivityFlags.NewTask);
                 context.StartActivity(activity);
             

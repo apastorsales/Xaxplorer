@@ -128,7 +128,12 @@ namespace Xaxplorer.ViewModels
         private async void CreateFile()
         {
             string name = await App.Current.MainPage.DisplayPromptAsync("Create a File", "Input the name and the extension of your desired file");
+            if (name == null)
+            {
 
+                name = "New text file.txt";
+
+            }
             Boolean check = false;
 
             string[] arrayNombre = new string[2];
@@ -161,6 +166,12 @@ namespace Xaxplorer.ViewModels
         private async void CreateDirectory()
         {
             string name = await App.Current.MainPage.DisplayPromptAsync("Create a Folder", "Input your desired folder name");
+            if (name == null)
+            {
+
+                name = "New Folder";
+
+            }
 
             Boolean check = false;
             string[] arrayAuxiliar;
