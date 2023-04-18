@@ -1,11 +1,10 @@
 # Xaxplorer
  
-Explorador de archivos para dispositivos móviles Android
+Explorador de archivos para dispositivos móviles Android v11 ( API 30 ).
 
-·Creación de archivos y directorios.
+·Creación de archivos y directorios (con identificación de elementos duplicados ).
 
-·Cambiar el nombre de archivos (también formato en este caso) y directorios.
-
+·Cambiar el nombre de directorios y archivos ( en el caso de los archivos, nombre y formato ).
 ·Eliminar archivos y directorios.
 
 ·Copiar archivos y directorios.
