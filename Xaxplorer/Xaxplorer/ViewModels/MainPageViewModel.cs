@@ -309,13 +309,7 @@ namespace Xaxplorer.ViewModels
                         File.Copy(file, Path.Combine(newPath, Path.GetFileName(file)));
                     }
                 }
-                if (IsMove)
-                {
-                    if (Directory.Exists(newPath))
-                    {
-                        Directory.Delete(oldPath, true);
-                    }
-                }
+                
             }
             else if (File.Exists(oldPath))
             {
@@ -333,16 +327,52 @@ namespace Xaxplorer.ViewModels
                 {
                     File.Copy(oldPath, newPath + "/" + Path.GetFileName(oldPath));
 
-                    if (IsMove)
-                    {
-                        if (File.Exists(Path.Combine(newPath, Path.GetFileName(oldPath))))
-                        {
-                            File.Delete(oldPath);
-                        }
-                    }
+                    
                 }
             }
         }
+
+        private async void MoveItem(string oldPath, string newPath)
+        {
+
+            if (Directory.Exists(oldPath))
+            {
+                if(Directory.Exists(newPath))
+                {
+                    string action = await App.Current.MainPage.DisplayActionSheet("Warning, there's already the same item here", "Cancel", "Overwrite");
+                    if (action == "Overwrite")
+                    {
+                        Directory.Delete(newPath, true);
+                        
+                    }
+
+                }
+                if (!Directory.Exists(newPath))
+                {
+                    Directory.Move(oldPath, newPath);
+                }
+
+            }
+            else if (File.Exists(oldPath))
+            {
+                if (File.Exists(newPath))
+                {
+                    string action = await App.Current.MainPage.DisplayActionSheet("Warning, there's already the same item here", "Cancel", "Overwrite");
+                    if (action == "Overwrite")
+                    {
+                        File.Delete(newPath);
+                    }
+
+                }
+                if (!File.Exists(newPath))
+                {
+                    File.Move(oldPath, newPath);
+                }
+                
+            }
+            ListDirectory();
+
+        } 
 
         //Metodo llamado en el constructor los Command "SaveItemCommand" y "CancelSaveCommand".
         //Devuelve el valor de CanSave, encargado de determinar si los dos comandos antes mencionados estan activos o no.
@@ -359,16 +389,30 @@ namespace Xaxplorer.ViewModels
             if (Directory.Exists(HoldItem.path))
             {
                 string nuevoItem = CurrentDirectory + "/" + HoldItem.name;
-
-                if (!Directory.Exists(nuevoItem))
+                if(IsMove)
                 {
-                    Directory.CreateDirectory(nuevoItem);
+                    MoveItem(HoldItem.path, nuevoItem);
                 }
-                CopyItem(HoldItem.path, nuevoItem);
+                else {
+                    if (!Directory.Exists(nuevoItem))
+                    {
+                        Directory.CreateDirectory(nuevoItem);
+                    }
+                    CopyItem(HoldItem.path, nuevoItem);
+                }
+                
             }
             else
             {
-                CopyItem(HoldItem.path, CurrentDirectory);
+                if (IsMove)
+                {
+                    MoveItem(HoldItem.path, CurrentDirectory);
+                }
+                else
+                {
+                    CopyItem(HoldItem.path, CurrentDirectory);
+                }
+                
             }
 
             CanSave = false;
@@ -397,8 +441,6 @@ namespace Xaxplorer.ViewModels
                 if (Directory.Exists(oldItemPath))
                 {
                     Directory.Move(oldItemPath, newItemName);
-
-                    
 
                 }
                 else if (File.Exists(oldItemPath))
