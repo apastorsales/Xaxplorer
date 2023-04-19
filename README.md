@@ -4,6 +4,8 @@ Explorador de archivos para dispositivos móviles Android v11 ( API 30 ).
 
 ·Navegación total a traves de toques en la pantalla, al tocar un directorio se accede a él, en caso de un archivo, se abre en otra aplicación.
 
+·En el caso de directorios restringidos por el sistema ( debajo de Android ), al presionar sobre él se abre en el explorador nativo del sistema.
+
 ·Gesto de "mantener pulsado" que permite realizar las acciones de "Mover", "Copiar" y "Eliminar" sobre el elemento seleccionado.
 
 ·Creación de archivos y directorios ( si ya existe un elemento con el mismo nombre, añade un diferenciador numerio "(1),(2),(3)..." ).
