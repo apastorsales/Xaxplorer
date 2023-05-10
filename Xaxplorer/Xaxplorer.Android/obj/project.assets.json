@@ -3746,24 +3746,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aicomadmin\\.nuget\\packages\\": {},
+    "C:\\Users\\AlexPastor\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj",
+      "projectUniqueName": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj",
       "projectName": "Xaxplorer.Android",
-      "projectPath": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj",
-      "packagesPath": "C:\\Users\\aicomadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\obj\\",
+      "projectPath": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj",
+      "packagesPath": "C:\\Users\\AlexPastor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\aicomadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AlexPastor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3777,8 +3777,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj": {
-              "projectPath": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj"
+            "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj": {
+              "projectPath": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj"
             }
           }
         }
@@ -3791,19 +3791,7 @@
             "target": "Package",
             "version": "[2.1.0.4, )"
           },
-          "Plugin.CurrentActivity": {
-            "target": "Package",
-            "version": "[2.1.0.4, )"
-          },
           "Prism.DryIoc.Forms": {
-            "target": "Package",
-            "version": "[8.1.97, )"
-          },
-          "Prism.DryIoc.Forms": {
-            "target": "Package",
-            "version": "[8.1.97, )"
-          },
-          "Prism.Forms": {
             "target": "Package",
             "version": "[8.1.97, )"
           },
@@ -3815,21 +3803,9 @@
             "target": "Package",
             "version": "[2.0.5, )"
           },
-          "Xamarin.CommunityToolkit": {
-            "target": "Package",
-            "version": "[2.0.5, )"
-          },
           "Xamarin.Essentials.Interfaces": {
             "target": "Package",
             "version": "[1.7.0, )"
-          },
-          "Xamarin.Essentials.Interfaces": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2291, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

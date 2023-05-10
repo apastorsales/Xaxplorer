@@ -16,3 +16,17 @@ C:\Users\aicomadmin\source\repos\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstan
 C:\Users\aicomadmin\source\repos\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Xaxplorer.csproj.CopyComplete
 C:\Users\aicomadmin\source\repos\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Xaxplorer.dll
 C:\Users\aicomadmin\source\repos\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Xaxplorer.pdb
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Xaxplorer.csproj.AssemblyReference.cache
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Xaxplorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Views\Detalles.xaml.g.cs
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Xaxplorer.AssemblyInfoInputs.cache
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Xaxplorer.AssemblyInfo.cs
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Xaxplorer.csproj.CoreCompileInputs.cache
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Xaxplorer.dll
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\Xaxplorer.pdb
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\bin\Debug\netstandard2.0\Xaxplorer.deps.json
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\bin\Debug\netstandard2.0\Xaxplorer.dll
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\bin\Debug\netstandard2.0\Xaxplorer.pdb
+C:\Users\AlexPastor\Source\Repos\apastorsales\Xaxplorer\Xaxplorer\Xaxplorer\obj\Debug\netstandard2.0\XamlC.stamp

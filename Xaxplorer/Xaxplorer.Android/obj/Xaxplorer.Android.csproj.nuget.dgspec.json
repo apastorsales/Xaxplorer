@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj": {}
+    "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj": {
+    "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj",
+        "projectUniqueName": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj",
         "projectName": "Xaxplorer.Android",
-        "projectPath": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj",
-        "packagesPath": "C:\\Users\\aicomadmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\obj\\",
+        "projectPath": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\Xaxplorer.Android.csproj",
+        "packagesPath": "C:\\Users\\AlexPastor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aicomadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlexPastor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj": {
-                "projectPath": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj"
+              "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj": {
+                "projectPath": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj"
               }
             }
           }
@@ -70,20 +70,20 @@
         }
       }
     },
-    "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj": {
+    "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj",
+        "projectUniqueName": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj",
         "projectName": "Xaxplorer",
-        "projectPath": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj",
-        "packagesPath": "C:\\Users\\aicomadmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aicomadmin\\source\\repos\\Xaxplorer\\Xaxplorer\\Xaxplorer\\obj\\",
+        "projectPath": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer\\Xaxplorer.csproj",
+        "packagesPath": "C:\\Users\\AlexPastor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AlexPastor\\Source\\Repos\\apastorsales\\Xaxplorer\\Xaxplorer\\Xaxplorer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aicomadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlexPastor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -149,7 +149,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

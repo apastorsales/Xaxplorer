@@ -1,5 +1,4 @@
-﻿using Android.Util;
-using ImTools;
+﻿using ImTools;
 using Prism.Commands;
 using System;
 using System.Collections.Generic;
@@ -111,7 +110,6 @@ namespace Xaxplorer.ViewModels
         {
             CurrentDirectory = "/storage/emulated/0";
             
-            Log.Info("Xandroid", "The app started");
 
             IsTapped = true;
             CreateFileCommand = new DelegateCommand(CreateFile);
@@ -137,9 +135,16 @@ namespace Xaxplorer.ViewModels
             Boolean check = false;
 
             string[] arrayNombre = new string[2];
-            string[] arrayAuxiliar;
-            arrayNombre[0] = name.Substring(0, name.LastIndexOf('.'));
-            arrayAuxiliar = name.Split('.');
+            try
+            {
+                arrayNombre[0] = name.Substring(0, name.LastIndexOf('.'));
+            }
+            catch (Exception)
+            {
+                arrayNombre[0] = name;
+                name = name + ".txt";
+            }
+            string[] arrayAuxiliar = name.Split('.');
             arrayNombre[1] = name.Substring(name.LastIndexOf('.'), arrayAuxiliar[arrayAuxiliar.Length - 1].Length + 1);
 
             while (File.Exists(CurrentDirectory + "/" + name))
